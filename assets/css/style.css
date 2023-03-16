@@ -64,17 +64,34 @@ div .profile > #occupation{
 }
 div .contato{
     margin-top: 1.875rem;
+    font-size: 13px;
+}
+div .contato-geral-info {
+    padding: 2.125rem;
 }
 div .contato-info {
+    display: flex;
+    align-items: center;
     margin-left: 2.5rem;
     margin-bottom: 1.5rem;
 }
+.contato-detalhe{
+    margin-left: 1.437rem;
+}
 div .conteudo{
    flex: 1;
+   
 }
-
 .conteudo > .home{
+    font-size: 1.25rem;
     padding: 1.88rem;
     display: flex;
     justify-content: space-between;
+    color: #837E9F;
+}
+
+.home > a{
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: #837E9F;
 }
