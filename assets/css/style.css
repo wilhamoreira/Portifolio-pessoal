@@ -30,6 +30,7 @@ div .box{
     background-color: var(--bg-cards);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 1.25rem;
+    margin-bottom: 2rem;
 }
 div .profile{   
     
@@ -75,9 +76,47 @@ div .contato-info {
     margin-left: 2.5rem;
     margin-bottom: 1.5rem;
 }
+
 .contato-detalhe{
     margin-left: 1.437rem;
 }
+.sidebar > .tecnologias{
+    margin-top: 1.875rem;
+}
+.tecnologias > .tecnologia-geral{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.25rem;
+    gap: 1.875rem;
+}
+.tecnologias > span{
+    line-height: 25.14px;
+    font-weight: 700;
+    color: #837E9F;
+    margin-left: 1.25rem;
+    font-size: 1.25rem;
+}
+.tecnologias-detalhe{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 1em;   
+
+}
+.tecnologias-detalhe > .tecnologias-info{
+    font-size: 0.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.375rem;
+    height: 1.5rem;
+    background-color: #CB92B1;
+    border-radius: 1.875rem;
+    text-align: center;
+    color: black;    
+}
+
+
 div .conteudo{
    flex: 1;
    
