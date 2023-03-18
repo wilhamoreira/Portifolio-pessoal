@@ -25,7 +25,6 @@ body{
 div .sidebar{
     width: 24.5rem;
 }
-
 div .box{
     background-color: var(--bg-cards);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -76,7 +75,6 @@ div .contato-info {
     margin-left: 2.5rem;
     margin-bottom: 1.5rem;
 }
-
 .contato-detalhe{
     margin-left: 1.437rem;
 }
@@ -89,18 +87,21 @@ div .contato-info {
     padding-top: 1.25rem;
     gap: 1.875rem;
 }
-.tecnologias > span{
+.tecnologias > .tecnologia-titulo{
     line-height: 25.14px;
     font-weight: 700;
     color: #837E9F;
     margin-left: 1.25rem;
     font-size: 1.25rem;
+    padding-top: 1.875rem;
+    padding-top: 1.25rem;
 }
 .tecnologias-detalhe{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 15px;
-    grid-row-gap: 1em;   
+    grid-row-gap: 1em;
+    padding-bottom: 1.875rem;   
 
 }
 .tecnologias-detalhe > .tecnologias-info{
@@ -115,11 +116,8 @@ div .contato-info {
     text-align: center;
     color: black;    
 }
-
-
 div .conteudo{
-   flex: 1;
-   
+   flex: 1;  
 }
 .conteudo > .home{
     font-size: 1.25rem;
@@ -128,7 +126,6 @@ div .conteudo{
     justify-content: space-between;
     color: #837E9F;
 }
-
 .home > a{
     font-size: 0.875rem;
     text-decoration: none;
