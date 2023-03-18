@@ -33,7 +33,6 @@ div .box{
     margin-bottom: 2rem;
 }
 div .profile{   
-    
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -131,4 +130,52 @@ div .conteudo{
     font-size: 0.875rem;
     text-decoration: none;
     color: #837E9F;
+}
+.meu-onixs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1.875rem;  
+}
+.onix{
+    flex: 1;
+    padding: 1.875rem;
+
+}
+.onix > .onix-titulo{
+    display: flex;
+    align-items: center;
+    gap: 1.104rem;
+    font-size: 1rem;
+}
+.onix > .onix-descricao{
+    font-size: 0.875rem;
+    padding-top: 1.375rem;
+}
+.onix-rodape{
+    display: flex;
+    flex: 1;
+}
+.onix-rodape > .onix-estrelas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.375rem;
+    font-size: 0.875rem;
+    gap: 0.604rem;    
+}
+.onix-rodape > .onix-branch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.375rem;
+    font-size: 0.875rem;
+    gap: 0.604rem;        
+}
+.onix-rodape > .onix-linguagem{
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 1.375rem;
+    font-size: 0.875rem;    
 }
