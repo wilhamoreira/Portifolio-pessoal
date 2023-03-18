@@ -13,14 +13,15 @@ body{
     background-color: var(--body-bg-color);    
     font-family: 'Merriweather Sans', sans-serif;
     color: var(--text-color);
+
 }
 .container{
     padding: 2.5rem;
     display: flex;
-    justify-content: center;
-    margin: auto;
+    /* justify-content: center; */
+    /* margin: auto; */
     gap: 3.75rem;
-    max-width: 1354px;
+    /* max-width: 1354px; */
 }
 div .sidebar{
     width: 24.5rem;
