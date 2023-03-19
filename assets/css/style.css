@@ -27,12 +27,17 @@ body{
     .container{
         width: 100%;
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;      
+        margin: auto;  
+        padding: 1rem;
     }
     .contato{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .tecnologias{
+        padding: 1rem;
     }
 }
 
