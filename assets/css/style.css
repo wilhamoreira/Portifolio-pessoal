@@ -193,20 +193,20 @@ div .conteudo{
     
 }
 @media screen and (max-width: 768px) {
+
+    
     .container{
         width: 100%;
         display: flex;
+        justify-content: center;
         flex-direction: column;      
-        margin: auto;  
-        padding: 1rem;
+        margin: auto;
     }
     .contato{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    .tecnologias{
-        padding: 1rem;
+        margin: 0 0;
     }
     .meu-onixs{
         grid-template-columns: 1fr;
