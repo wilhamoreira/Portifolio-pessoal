@@ -199,8 +199,14 @@ div .conteudo{
         width: 100%;
         display: flex;
         justify-content: center;
-        flex-direction: column;      
         margin: auto;
+    }
+    div .profile{
+        padding: 0;    
+        flex-wrap: wrap;     
+    }
+    .profile > span{
+        flex-wrap: wrap;
     }
     .contato{
         display: flex;
